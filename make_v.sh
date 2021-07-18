@@ -1,6 +1,6 @@
 git clone https://github.com/vlang/v vrep
 cd vrep 
-make
+make latest_tcc
 cd ..
 git clone https://github.com/vlang/vc v
 cd v
