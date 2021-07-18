@@ -1,8 +1,8 @@
-git clone https://github.com/vlang/v vrep
+git clone --depth 1 --quiet --single-branch https://github.com/vlang/v vrep
 cd vrep 
 make latest_tcc
 cd ..
-git clone https://github.com/vlang/vc v
+git clone --depth 1 --quiet --single-branchhttps://github.com/vlang/vc v
 cd v
 gcc -o v v.c
 cd ..
