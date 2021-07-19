@@ -1,5 +1,5 @@
 printf "trying to delete old v build...\n\n"
-rm -rf v || printf "found no v folder\n\n"
+rm -r v || printf "found no v folder\n\n"
 printf "fetching tcc...\n\n"
 git clone --depth 1 --quiet --single-branch https://github.com/vlang/v vrep
 cd vrep 
